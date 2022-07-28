@@ -1,0 +1,8 @@
+.drag {
+    background-color: skyblue;
+    position: absolute;
+    line-height: 100px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
