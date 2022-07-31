@@ -1,6 +1,8 @@
 
 
-这里先给项目地址：[地址]()
+### 前言
+
+这里先给项目地址：[地址](https://github.com/kangkang123269/kate-demo/tree/main/html5/fullScreen-demo)
 
 ### 支持全屏的api
 
