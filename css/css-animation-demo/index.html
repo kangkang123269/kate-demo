@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./animation.css" />
+    <title>弹层动画</title>
+  </head>
+  <body>
+    <button onclick="fadeIn()">从上往下</button>
+    <button onclick="fadelogIn()">从右往左</button>
+    <button onclick="fadeleftIn()">从右往左</button>
+    <button onclick="popIn()">放大</button>
+    <div
+      id="popup"
+      style="
+        display: none;
+        width: 200px;
+        height: 200px;
+        background-color: aqua;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+      "
+    ></div>
+    <script>
+      const element = document.getElementById('popup');
+      function fadeIn() {
+        element.className = '';
+        element.classList.add('fadeIn');
+        element.style.display = 'block';
+      }
+      function fadelogIn() {
+        element.className = '';
+        element.classList.add('fadelogIn');
+        element.style.display = 'block';
+      }
+      function fadeleftIn() {
+        element.className = '';
+        element.classList.add('fadeleftIn');
+        element.style.display = 'block';
+      }
+      function popIn() {
+        element.className = '';
+        element.classList.add('popIn');
+        element.style.display = 'block';
+      }
+    </script>
+  </body>
+</html>
