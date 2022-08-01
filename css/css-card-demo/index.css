@@ -1,0 +1,83 @@
+body {
+  background: #f7f6f9;
+}
+.card {
+  margin: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.card-top {
+  border-bottom: 1px solid #dbdbdb;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.card-top-title {
+  font-size: 14px;
+}
+.card-top-status {
+  font-size: 18px;
+  font-weight: 500;
+}
+.card-middle {
+  display: flex;
+  margin-top: 10px;
+}
+.card-middle-img {
+  background-color: aqua;
+  border-radius: 10px;
+  width: 80px;
+  height: 80px;
+}
+.card-middle-right {
+  margin-left: 15px;
+  flex: 1;
+}
+.card-middle-title {
+  font-size: 16px;
+  font-weight: 500;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.card-middle-desc {
+  display: flex;
+  justify-content: space-between;
+  color: #A09EA1;
+  font-size: 12px;
+  height: 20px;
+  align-items: center;
+  margin-top: 5px;
+}
+.card-middle-desc-game {
+  white-space: wrap;
+}
+.card-middle-desc-game-time {
+  margin-left: 10px;
+}
+.card-middle-desc-price {
+  margin-left: 20px;
+}
+.card-middle-desc-price-name {
+  margin-right: 3px;
+}
+.card-middle-desc-price-number {
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+}
+.card-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: right;
+}
+.card-button-item {
+  width: 80px;
+  outline: none;
+  border: 1px solid #bdaee5;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
