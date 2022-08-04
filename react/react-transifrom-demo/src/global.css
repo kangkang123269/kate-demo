@@ -1,0 +1,57 @@
+/* 入场动画过程 */
+.animate-enter{
+    opacity: 0;
+    transform: translateY(300px);
+  }
+  .animate-enter-active{
+    transition: 2s;
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .animate-enter-done{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  /* 出场动画过程 */
+  .animate-exit{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .animate-exit-active{
+    transition: 2s;
+    opacity: 0;
+    transform: translateY(300px);
+  }
+  .animate-exit-done{
+    opacity: 0;
+    transform: translateY(300px);
+  }
+  
+  /* 入场动画过程 */
+.dg-enter{
+    transform: translateX(200px)
+  }
+  .dg-enter-active{
+    transition: 2s;
+    transform: translateX(0px)
+  }
+  .dg-enter-done{
+    transform: translateX(0px)
+  }
+  /* 出场动画过程 */
+  .dg-exit{
+    transform: translateX(0px)
+  }
+  .dg-exit-active{
+    transition: 2s;
+    transform: translateX(200px)
+  }
+  .dg-exit-done{
+    transform: translateX(200px)
+  }
+  
+  .home, .user, .login, .animate{
+    position: absolute;
+    left: calc(50% - 200px)
+  }
+  
